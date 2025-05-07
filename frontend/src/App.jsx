@@ -4,7 +4,7 @@ import './App.css';
 import MessageForm from './components/MessageForm';
 import MessageList from './components/MessagesList';
 
-const API_URL = 'http://localhost:3000/api/messages';
+const API_URL = 'https://fut-messenger-backend.onrender.com/api/messages';
 
 function App() {
   const [messages, setMessages] = useState([]);
